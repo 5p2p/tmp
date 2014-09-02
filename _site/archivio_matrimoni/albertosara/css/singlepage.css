@@ -1,0 +1,259 @@
+a, a:visited { outline: none; color: #439BBD; text-decoration: underline; }  
+a:hover { outline: none; text-decoration:none; }  
+a:active, a:focus { outline: none; }
+
+code {
+	font-size: 1.2em;
+}
+
+#testo .img-float {
+	width:100%;
+	max-width: 15em;
+ 	margin-top: 1.5em;
+}
+
+#testo .img-rounded {
+	width:100%;
+	max-width: 15em;
+ border-radius: 120px;
+ margin-top: 1.5em;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+}
+
+.img-don {
+	margin: 0.1em 1em;
+ width: 120px;
+ height: 120px;
+ background-image: url('/img/don-r.png');
+ background-size: cover;
+ display: inline;
+ float: right;
+ border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.img-sposo {
+	margin: 0.1em 1em;
+ width: 120px;
+ height: 120px;
+ background-image: url('/img/sposo-r.png');
+ background-size: cover;
+ display: inline;
+ float: left;
+}
+
+.img-sposa {
+	margin: 0.1em 1em;
+ width: 120px;
+ height: 120px;
+ background-image: url('/img/sposa-r.png');
+ background-size: cover;
+ display: inline;
+ float: right;
+}
+
+
+
+		
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+blockquote {
+	border-left:	4px solid #D7D7D7;
+	padding-left:	10px;
+}
+
+
+footer {
+	margin: 0 auto;
+	max-width: 38em;
+	padding: 1em 0em;
+	text-align: justify;
+	/*text-align: justify;*/
+}
+
+footer img {
+/*	float: left; */
+/*	height: 10em; */
+	display: block;
+	margin: 1em auto; 
+}
+
+header img {
+	width:	100%;
+	max-width:	1200px;
+	margin-bottom: 0em;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2, h3 {
+	font-weight: 	500;
+	color: 			#4D4D4D;
+	margin:			0;
+	margin-top:	1.2em;
+	padding:		0;
+}
+h1 { font-size: 3.0em; color: red; text-transform: uppercase;}
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.1em; }
+
+header h2, 
+header h3, 
+header h4 {
+	margin: 0.5em 1em ;
+}
+
+body {
+	font-family:	'Raleway', sans-serif;
+	font-size: 		1.0em;
+	font-weight: 	300;
+	color: 			#4D4D4D;
+	margin:			0;
+	padding:		0;
+}
+
+#main {
+	width: 			100%;
+	margin:			0 auto;
+}
+
+
+#testo {
+	margin: 0 auto;
+	max-width: 35em;
+	padding: 1em 2em;
+	text-align: left;
+	font-size: 1.1em;
+	line-height:   1.4;
+	text-align: justify;
+}
+
+#testo img {
+	width:	100%;
+	max-width:	55em;
+	padding: 0.2em 0;
+}
+
+#commenti {
+	margin: 0 auto;
+	max-width: 35em;
+	padding: 2em;
+	text-align: left;
+	font-size: 1.1em;
+	line-height:   1.4;
+	text-align: justify;
+}
+
+#gallery {
+	width: 			100%;
+	padding:		0em;
+	margin: 		6em auto;	
+}
+
+.photo {
+	padding: .8%;
+	width: 31.5%;
+    -webkit-transition-duration: 0.8s;
+       -moz-transition-duration: 0.8s;
+        -ms-transition-duration: 0.8s;
+         -o-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+}
+
+.large {
+	width: 64.4%;
+	padding: .8%;
+}
+
+.photo:hover {
+	opacity:		0.6	;
+}
+
+.photo img { width: 100.5%; 
+}
+
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/* @media screen and (min-width: 30em) and (max-width: 63.236em) { */
+/*@media screen and (min-width: 175em) {
+
+.photo {
+	padding: .5%;
+	width: 18.95%;
+}
+.large {
+	padding: .5%;
+	width: 38.8%;
+}
+
+header img {
+	max-width:	55em;
+}	
+}
+
+*/
+
+.col1 {
+	width: 40%; padding: 0 1em; float: left;
+	text-align: left;
+}
+.col2 {
+	width: 40%; padding: 0 1em; float: right;
+	text-align: left;
+}
+
+.tul {text-decoration:underline;}
+
+.ita {font-style:italic;} 
+
+.float {float:right;}
+
+@media screen and (max-width: 40em) {
+
+	h1 { font-size: 2.2em;}
+	h2 { font-size: 1.6em;}
+	h3 { font-size: 1.2em;}
+	h4 { font-size: 1.0em;}
+	#testo {text-align: left;}
+	.col1 { width: 100%; float:left;}
+	.col2 { width: 100%; float:left;}
+	.float {float: none;}
+	
+}

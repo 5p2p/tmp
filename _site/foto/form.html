@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="javascript/parsley.min.js"></script>
+	
+</head>
+
+<body>
+	
+
+	<form class="style" name="scrivici" action="http://getsimpleform.com/messages?form_api_token=2c08cc2897d1de77157533ef2f2b76be" onsubmit="return validateForm()" method="post" parsley-validate>
+
+	    <label for="fullname">Full Name * :</label>
+	    <input type="text" name="fullname" required  />
+
+		
+		<input type="text"  class="contact" name="Nome"  onfocus="this.value = this.value=='Nome' ? '' : this.value; this.style.color='#000';" onfocusout="this.value = this.value == '' ? this.value = 'Nome' : this.value; this.value=='Nome' ? this.style.color='#ccc' : this.style.color='#000'" required />
+
+		<input type="submit" value="Submit">
+		
+	</form>
+
+
+
+	<form id="demo-form" parsley-validate>
+	    <label for="fullname">Full Name * :</label>
+	    <input type="text" name="fullname" required />
+
+	    <label for="email">Email * :</label>
+	    <input type="email" name="email" parsley-trigger="change" required />
+
+	    <label for="website">Website :</label>
+	    <input type="text" name="website" parsley-trigger="change" parsley-type="url" />
+
+	    <label for="message">Message (20 chars min, 200 max) :</label>
+	    <textarea name="message" parsley-trigger="keyup" parsley-rangelength="[20,200]"></textarea>
+
+		<input type="submit" value="Submit">
+		
+
+	</form>
+	
+</body>
+
+</html>
